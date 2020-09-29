@@ -3,67 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Quiz App</title>
   </head>
   <body>
-    <div class="grid-wrapper">
-      <header class="header">
-        <h1 class="header-headline">Create</h1>
-      </header>
-      <main class="main">
-        <form action="" class="create">
-          <label for="question" class="create-headline"
-            >What's your question?</label
-          >
-          <input
-            type="text"
-            class="create-text-box"
-            id="question"
-            name="question"
-          />
-          <label for="answer" class="create-headline">What's the answer?</label>
-          <input
-            type="text"
-            class="create-text-box"
-            id="answer"
-            name="answer"
-          />
-          <label for="" class="question-headline">Categories</label>
-          <input
-            type="text"
-            class="create-text-box"
-            id="question-tags"
-            name="question-tags"
-          />
-          <button type="submit" class="create-button">Submit</button>
-        </form>
-      </main>
-      <footer class="main-footer">
-        <nav class="footer-nav">
-          <ul>
-            <li>
-              <a href="#" class="nav-links"
-                ><img src="" alt="" class="nav-icons"
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="nav-links"
-                ><img src="" alt="" class="nav-icons"
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="nav-links"
-                ><img src="" alt="" class="nav-icons"
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="nav-links"
-                ><img src="" alt="" class="nav-icons"
-              /></a>
-            </li>
-          </ul>
-        </nav>
-      </footer>
-    </div>
+    <header class="header center">
+      <h1 class="header__h1">Create a question</h1>
+    </header>
+    <main class="main">
+      <form class="form">
+        <label for="question" class="form__headline"
+          >What's your question?</label
+        >
+        <input type="text" class="formn__input" id="question" name="question" />
+        <label for="answer" class="form__headline">What's the answer?</label>
+        <input type="text" class="form__input" id="answer" name="answer" />
+        <label for="" class="form__headline">Categories</label>
+        <input
+          type="text"
+          class="form__input"
+          id="question-tags"
+          name="question-tags"
+        />
+        <button type="submit" class="button">Submit</button>
+      </form>
+    </main>
+    <nav class="nav">
+      <a href="#" class="nav__link"
+        ><img src="" alt="" class="nav__icon nav__icon--active"
+      /></a>
+      <a href="#" class="nav__link"
+        ><img src="" alt="" class="nav__icon nav__icon--active"
+      /></a>
+      <a href="#" class="nav__link"
+        ><img src="" alt="" class="nav__icon nav__icon--active"
+      /></a>
+      <a href="#" class="nav__link"
+        ><img src="" alt="" class="nav__icon nav__icon--active"
+      /></a>
+    </nav>
   </body>
 </html>
