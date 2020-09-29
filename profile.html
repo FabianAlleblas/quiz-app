@@ -3,55 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Quiz App</title>
   </head>
   <body>
-    <div class="grid-wrapper">
-      <header class="header">
-        <h1 class="header-headline">Profile</h1>
-      </header>
-      <main class="main">
-        <section class="profile">
-          <img src="#" alt="" class="profile-image" />
-          <h2 class="profile-name"></h2>
-          <p class="profile-text"></p>
-          <h3 class="profile-skill-headline"></h3>
-          <ul>
-            <li class="profile-skill-tags">Lorem</li>
-            <li class="profile-skill-tags">Lorem</li>
-            <li class="profile-skill-tags">Lorem</li>
-            <li class="profile-skill-tags">Lorem</li>
-            <li class="profile-skill-tags">Lorem</li>
-          </ul>
-          <button class="logout-button">Log out</button>
-        </section>
-      </main>
-      <footer class="main-footer">
-        <nav class="footer-nav">
-          <ul>
-            <li>
-              <a href="#" class="nav-links"
-                ><img src="" alt="" class="nav-icons"
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="nav-links"
-                ><img src="" alt="" class="nav-icons"
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="nav-links"
-                ><img src="" alt="" class="nav-icons"
-              /></a>
-            </li>
-            <li>
-              <a href="#" class="nav-links"
-                ><img src="" alt="" class="nav-icons"
-              /></a>
-            </li>
-          </ul>
-        </nav>
-      </footer>
-    </div>
+    <header class="header center">
+      <h1 class="header__h1">Create a question</h1>
+    </header>
+    <main class="main">
+      <section class="profile">
+        <img src="#" alt="" class="profile__image" />
+        <h2 class="profile__name"></h2>
+        <p class="profile__text"></p>
+        <ul name="card__tag-list">
+          <li>Lorem</li>
+          <li>Lorem</li>
+          <li>Lorem</li>
+          <li>Lorem</li>
+          <li>Lorem</li>
+        </ul>
+        <button class="button">Log out</button>
+      </section>
+    </main>
+    <nav class="nav">
+      <a href="#" class="nav__link"
+        ><img src="" alt="" class="nav__icon nav__icon--active"
+      /></a>
+      <a href="#" class="nav__link"
+        ><img src="" alt="" class="nav__icon nav__icon--active"
+      /></a>
+      <a href="#" class="nav__link"
+        ><img src="" alt="" class="nav__icon nav__icon--active"
+      /></a>
+      <a href="#" class="nav__link"
+        ><img src="" alt="" class="nav__icon nav__icon--active"
+      /></a>
+    </nav>
   </body>
 </html>
