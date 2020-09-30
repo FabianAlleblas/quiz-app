@@ -26,9 +26,9 @@
   width: 40px;
 }
 
-/* .card__bookmark-icon--active {
+.card__bookmark-icon--active {
   fill: currentColor;
-} */
+}
 
 .card__headline {
   font-size: 20px;
