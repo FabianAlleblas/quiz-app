@@ -5,11 +5,11 @@
 }
 
 .nav__icon {
-  width: 30px;
   color: black;
+  width: 30px;
 }
 
 .nav__icon--active {
-  width: 30px;
   color: white;
+  width: 30px;
 }

@@ -1,4 +1,13 @@
 .tag-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.tag-list > li {
+  background-color: white;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: lowercase;
+  border: 1px dotted black;
 }
