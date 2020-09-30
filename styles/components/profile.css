@@ -1,0 +1,16 @@
+.profile {
+  background-color: var(--main-bg);
+}
+
+.profile__image {
+  border-radius: 50%;
+}
+
+.profile__name {
+  font-size: 20px;
+}
+
+.profile__text {
+  font-size: 16px;
+  font-weight: 300;
+}
