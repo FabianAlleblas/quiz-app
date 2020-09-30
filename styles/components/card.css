@@ -1,5 +1,4 @@
 .card-grid {
-  align-content: start;
   display: grid;
   gap: 20px;
 }
