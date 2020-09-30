@@ -21,17 +21,14 @@
 }
 
 .card__bookmark-icon {
-  clip-rule: evenodd;
-  fill-rule: evenodd;
-  left: 85%;
   position: absolute;
+  right: 20px;
   top: -10px;
-  width: 30px;
+  width: 40px;
 }
 
 /* .card__bookmark-icon--active {
-  clip-rule: unset;
-  fill-rule: unset;
+  fill: currentColor;
 } */
 
 .card__headline {
