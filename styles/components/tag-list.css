@@ -6,8 +6,9 @@
 
 .tag-list > li {
   background-color: white;
+  border: 1px dotted black;
   font-size: 14px;
   font-weight: 700;
   text-transform: lowercase;
-  border: 1px dotted black;
+  padding: 5px 10px;
 }

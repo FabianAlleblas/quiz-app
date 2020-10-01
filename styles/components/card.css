@@ -1,10 +1,10 @@
-.card-grid {
+.card__grid {
   display: grid;
   gap: 20px;
 }
 
 /* fix padding-bottom rendering on grid: */
-.card-grid > *:last-child:after {
+.card__grid > *:last-child:after {
   content: '';
   display: block;
   height: 20px;
@@ -16,6 +16,7 @@
 
 .card {
   background: var(--main-bg);
+  padding: 20px 10px;
   position: relative;
 }
 
@@ -37,4 +38,9 @@
 .card__text {
   font-size: 16px;
   font-weight: 300;
+  padding: 20px 0;
+}
+
+.card__text--hidden {
+  display: none;
 }

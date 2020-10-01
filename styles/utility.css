@@ -8,10 +8,6 @@
   overflow-y: scroll;
 }
 
-.hide {
-  display: none;
-}
-
 .radius {
   border-radius: 20px;
 }
