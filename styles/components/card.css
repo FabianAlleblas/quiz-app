@@ -31,7 +31,7 @@
   fill: currentColor;
 }
 
-.card__headline pdt-3 {
+.card__headline {
   font-size: 20px;
 }
 
@@ -41,6 +41,6 @@
   padding: 20px 0;
 }
 
-/* .card__answer-wrapper--hidden {
+.card__answer-wrapper--hidden {
   display: none;
-} */
+}
