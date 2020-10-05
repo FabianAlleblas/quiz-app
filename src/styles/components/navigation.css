@@ -2,9 +2,11 @@
   background-color: var(--main-bg);
   display: grid;
   grid-auto-flow: column;
+  align-items: center;
+  justify-items: center;
 }
 
-.nav__icon {
+.nav__iconbla {
   color: black;
   width: 30px;
 }
