@@ -19,7 +19,7 @@ question.addEventListener('click', switchQuestion)
 //profile.addEventListener('click')
 
 function switchQuestion() {
-  questionHeading.className.toggle('hidden')
+  questionHeading.classList.toggle('hidden')
 }
 
 //function switchBookmark() {}
