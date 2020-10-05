@@ -1,0 +1,19 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabianAlleblas/quiz-app.git"
+  },
+  "author": "Fabian Alleblas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabianAlleblas/quiz-app/issues"
+  },
+  "homepage": "https://github.com/FabianAlleblas/quiz-app#readme"
+}
