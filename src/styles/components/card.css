@@ -1,8 +1,3 @@
-.card__grid {
-  display: grid;
-  gap: 20px;
-}
-
 /* fix padding-bottom rendering on grid: */
 .card__grid > *:last-child:after {
   content: '';

@@ -8,22 +8,72 @@ const bookmarkHeading = document.querySelector('.header__bookmark')
 const createHeading = document.querySelector('.header__create')
 const profileHeading = document.querySelector('.header__profile')
 
-const questionContent = document.querySelector('.header__question')
-const bookmarkContent = document.querySelector('.header__bookmark')
-const createContent = document.querySelector('.header__create')
-const profileContent = document.querySelector('.header__profile')
+const questionContent = document.querySelector('.content-question')
+const bookmarkContent = document.querySelector('.content-bookmark')
+const createContent = document.querySelector('.content-create')
+const profileContent = document.querySelector('.content-profile')
 
 question.addEventListener('click', switchQuestion)
-//bookmark.addEventListener('click')
-//create.addEventListener('click')
-//profile.addEventListener('click')
+bookmark.addEventListener('click', switchBookmark)
+create.addEventListener('click', switchCreate)
+profile.addEventListener('click', switchProfile)
 
 function switchQuestion() {
-  questionHeading.classList.toggle('hidden')
+  questionHeading.classList.remove('hidden')
+  bookmarkHeading.classList.add('hidden')
+  createHeading.classList.add('hidden')
+  profileHeading.classList.add('hidden')
+  question.classList.add('nav__icon--active')
+  bookmark.classList.remove('nav__icon--active')
+  create.classList.remove('nav__icon--active')
+  profile.classList.remove('nav__icon--active')
+  questionContent.classList.remove('hidden')
+  bookmarkContent.classList.add('hidden')
+  createContent.classList.add('hidden')
+  profileContent.classList.add('hidden')
 }
 
-//function switchBookmark() {}
+function switchBookmark() {
+  bookmarkHeading.classList.remove('hidden')
+  questionHeading.classList.add('hidden')
+  createHeading.classList.add('hidden')
+  profileHeading.classList.add('hidden')
+  bookmark.classList.add('nav__icon--active')
+  question.classList.remove('nav__icon--active')
+  create.classList.remove('nav__icon--active')
+  profile.classList.remove('nav__icon--active')
+  bookmarkContent.classList.remove('hidden')
+  questionContent.classList.add('hidden')
+  createContent.classList.add('hidden')
+  profileContent.classList.add('hidden')
+}
 
-//function switchCreate() {}
+function switchCreate() {
+  createHeading.classList.remove('hidden')
+  bookmarkHeading.classList.add('hidden')
+  questionHeading.classList.add('hidden')
+  profileHeading.classList.add('hidden')
+  create.classList.add('nav__icon--active')
+  bookmark.classList.remove('nav__icon--active')
+  question.classList.remove('nav__icon--active')
+  profile.classList.remove('nav__icon--active')
+  createContent.classList.remove('hidden')
+  bookmarkContent.classList.add('hidden')
+  questionContent.classList.add('hidden')
+  profileContent.classList.add('hidden')
+}
 
-//function switchProfile() {}
+function switchProfile() {
+  profileHeading.classList.remove('hidden')
+  bookmarkHeading.classList.add('hidden')
+  createHeading.classList.add('hidden')
+  questionHeading.classList.add('hidden')
+  profile.classList.add('nav__icon--active')
+  bookmark.classList.remove('nav__icon--active')
+  create.classList.remove('nav__icon--active')
+  question.classList.remove('nav__icon--active')
+  profileContent.classList.remove('hidden')
+  bookmarkContent.classList.add('hidden')
+  createContent.classList.add('hidden')
+  questionContent.classList.add('hidden')
+}
